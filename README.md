@@ -13,7 +13,7 @@ https://www.eevblog.com/forum/fpga/systemverilog-example-testbench-which-saves-a
 1.  Unzip files into their own folder.
 2.  Open ModelSim.
 3.  Select 'File - Change directory', select the directory with the source files.
-4.  In the transcript, type 'do setup.do' to setup ModelSim's environment.
+4.  In the transcript, type 'do setup_modelsim.do' to setup ModelSim's environment.
 5.  In the transcript, type 'do run.do' to re-compile and run the test-bench.
 
 The test-bench source 'ellipse_generator_tb.sv' contains the relevant code example while it drives and responds to the DUT 'ellipse_generator.sv'.
